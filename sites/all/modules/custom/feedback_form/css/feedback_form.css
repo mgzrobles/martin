@@ -1,0 +1,96 @@
+@CHARSET "ISO-8859-1";
+
+#feedback_form #feedback_form_content h2 a{color:#ffb959 !important}
+#feedback_form span#feedback_form_text {
+	z-index: 9999;
+	background: url("../images/feedback.png") no-repeat scroll 6px center
+		#EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+	border-radius: 5px 5px 5px 5px;
+	color: #666666;
+	cursor: pointer;
+	display: block;
+	font-size: 11px;
+	height: 30px;
+	left: 0;
+	line-height: 15px;
+	margin: 0;
+	min-width: 60px;
+	overflow: hidden;
+	padding-left: 43px;
+	padding-top: 15px;
+	position: fixed;
+	text-shadow: 0 1px 0 #FFFFFF;
+	top: 40%;
+	white-space: nowrap;
+}
+
+#feedback_form #feedback_form_content {
+	z-index: 9999;
+	position: fixed;
+	width: 35%;
+	height: 100%;
+	top: 0;
+	left: -35%;
+	background: none repeat scroll 0 0 #176291;
+	opacity: 0.8;
+	border-right: 5px solid #ffb959;
+	color: #ffffff;
+	text-shadow: none;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#feedback_form #feedback_form_content #node-content {
+	background: none repeat scroll 0 0 #176291;
+}
+
+#feedback_form #feedback_form_content article {
+	margin-left: 25px;
+	margin-right: 25px
+}
+
+#feedback_form #feedback_form_content header {
+	margin-bottom: 45px;
+	margin-top: 30px;
+	height: auto;
+}
+
+#feedback_form #feedback_form_content article a {
+	color: #ffb959;
+	text-shadow: none;
+}
+
+#feedback_form #feedback_form_content .webform-component input {
+	width: 98%
+}
+
+#feedback_form #feedback_form_content input#edit-submit {
+	background: #ffffff;
+	font-weight: bold;
+	color: #000000;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 5px 5px 5px 5px;
+	border: #ffb959 solid 8px;
+	text-shadow: 0 1px 0 #ffb959;
+}
+
+/*messages*/
+#feedback_form_content #messages {
+	border-radius: 2px 2px 2px 2px;
+	clear: both;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 1em auto 0;
+	padding: 5px;
+	width: 80%;
+}
+
+#feedback_form_content #messages.error {
+	background: none repeat scroll 0 0 #FF2222;
+}
+
+#feedback_form_content #messages.status {
+	background: none repeat scroll 0 0 #22ff37;
+}

@@ -1,0 +1,8 @@
+; $Id: $
+name = feedback_form
+description = Provide feedback form 
+package = Feedback
+dependencies[] = webform
+dependencies[] = clientside_validation
+version = "7.x-1.0"
+core = "7.x"

@@ -1,0 +1,5 @@
+; $Id: $
+name = Home
+description = Provide home page
+core = 7.x
+package = Home
